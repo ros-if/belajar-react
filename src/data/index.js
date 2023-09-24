@@ -30,13 +30,13 @@ export const navLinks = [
   },
   {
     id: 4,
-    path: 'faq',
-    text: 'FAQ',
+    path: 'syarat',
+    text: 'Syarat',
   },
   {
     id: 5,
-    path: 'syarat',
-    text: 'Syarat',
+    path: 'faq',
+    text: 'FAQ',
   },
 ];
 
@@ -400,5 +400,23 @@ export const faq = [
     eventKey: 7,
     title: 'Apakah boleh ganti Kelas ketika sudah Membeli?',
     desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.',
+  },
+];
+
+export const syarat = [
+  {
+    id: 1,
+    title: 'Pertama',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?',
+  },
+  {
+    id: 2,
+    title: 'Ke-dua',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?',
+  },
+  {
+    id: 3,
+    title: 'Ke-tiga',
+    desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?',
   },
 ];

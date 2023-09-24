@@ -3,10 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import KelasPage from './pages/KelasPage';
 import TestimonialPage from './pages/TestimonialPage';
-import FaqPage from './pages/FaqPage';
 import SyaratPage from './pages/SyaratPage';
+import FaqPage from './pages/FaqPage';
 import NavbarComponent from './data/components/NavbarComponent';
-// import FooterComponent from './assets/components/FooterComponent';
+import FooterComponent from './data/components/FooterComponent';
 
 function App() {
   return (
@@ -27,16 +27,16 @@ function App() {
           Component={TestimonialPage}
         />
         <Route
-          path="/faq"
-          Component={FaqPage}
-        />
-        <Route
           path="/syarat"
           Component={SyaratPage}
         />
+        <Route
+          path="/faq"
+          Component={FaqPage}
+        />
       </Routes>
 
-      {/* <FooterComponent /> */}
+      <FooterComponent />
     </div>
   );
 }

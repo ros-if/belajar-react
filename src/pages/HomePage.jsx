@@ -3,6 +3,7 @@ import HeroImage from '../assets/img/hero.png';
 
 import { kelasTerbaru, dataSwiper } from '../data/index';
 import { useNavigate } from 'react-router-dom';
+import FaqComponent from '../data/components/FaqComponent';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -18,15 +19,22 @@ const HomePage = () => {
 
   return (
     <div className="homepage">
-      <header className="w-100 min-vh-100 d-flex align-items-center">
+      <header className="w-100 d-flex align-items-center">
         <Container>
           <Row className="header-box d-flex align-items-center pt-lg-5">
             <Col lg="6">
               <h1 className="mb-4">
-                Temukan <br /> <span> Bakat Kreatifmu </span> <br /> Bersama Kami !
+                Temukan
+                <br /> <span>Bakat Kreatifmu</span>
+                <br /> Bersama Kami !
               </h1>
               <p className="mb-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat nisi, sunt repellat saepe quod dolorum.</p>
-              <button className="btn btn-danger btn-lg rounded-1 me-2 mb-xs-0 mb-2">Lihat Kelas</button>
+              <button
+                className="btn btn-danger btn-lg rounded-1 me-2 mb-xs-0 mb-2"
+                onClick={() => navigate('/kelas')}
+              >
+                Lihat Kelas
+              </button>
               <button className="btn btn-outline-danger btn-lg rounded-1 mb-xs-0 mb-2">Lihat Promo</button>
             </Col>
             <Col
@@ -146,6 +154,7 @@ const HomePage = () => {
           </Row>
         </Container>
       </div>
+      <FaqComponent />
     </div>
   );
 };
