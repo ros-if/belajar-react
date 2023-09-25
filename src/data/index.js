@@ -185,7 +185,7 @@ export const kelasTerbaru = [
     title: 'UI UX Website Design for Beginner with Figma',
     price: 'Rp. 340.000',
     buy: 'Beli Kelas',
-    delay: '200',
+    delay: '100',
   },
   {
     id: 3,
@@ -198,7 +198,7 @@ export const kelasTerbaru = [
     title: 'Mastering Web Developer Bootstrap 5',
     price: 'Rp. 280.000',
     buy: 'Beli Kelas',
-    delay: '400',
+    delay: '200',
   },
   {
     id: 4,
@@ -211,7 +211,7 @@ export const kelasTerbaru = [
     title: 'Mastering Logo with Adobe Illustrator',
     price: 'Rp. 420.000',
     buy: 'Beli Kelas',
-    delay: '',
+    delay: '300',
   },
   {
     id: 5,
@@ -224,7 +224,7 @@ export const kelasTerbaru = [
     title: '3D Modelling for Beginner with 3D Blender',
     price: 'Rp. 380.000',
     buy: 'Beli Kelas',
-    delay: '200',
+    delay: '400',
   },
   {
     id: 6,
@@ -237,7 +237,7 @@ export const kelasTerbaru = [
     title: 'Mastering Icon Design with Adobe Illustrator',
     price: 'Rp. 300.000',
     buy: 'Beli Kelas',
-    delay: '400',
+    delay: '500',
   },
 ];
 
@@ -406,17 +406,17 @@ export const faq = [
 export const syarat = [
   {
     id: 1,
-    title: 'Pertama',
+    title: 'Peraturan pertama',
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?',
   },
   {
     id: 2,
-    title: 'Ke-dua',
+    title: 'Peraturan ke-dua',
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?',
   },
   {
     id: 3,
-    title: 'Ke-tiga',
+    title: 'Peraturan ke-tiga',
     desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?',
   },
 ];

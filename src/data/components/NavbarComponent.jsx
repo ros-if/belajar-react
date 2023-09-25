@@ -5,6 +5,16 @@ import { navLinks } from '../index';
 import { NavLink } from 'react-router-dom';
 
 const NavbarComponent = () => {
+  const [isBackgroundToggle, setIsBackgroundToggle] = useState(true);
+
+  const toggleBackgroundColor = () => {
+    setIsBackgroundToggle(!isBackgroundToggle);
+  };
+
+  const backgroundStyle = {
+    backgroundColor: isBackgroundToggle ? '' : 'white',
+  };
+
   const [changeColor, setChangeColor] = useState(false);
 
   const changeBackgroundColor = () => {
@@ -26,6 +36,7 @@ const NavbarComponent = () => {
       <Navbar
         className={changeColor ? 'color-active' : ''}
         expand="lg"
+        style={backgroundStyle}
       >
         <Container>
           <Navbar.Brand
@@ -34,7 +45,10 @@ const NavbarComponent = () => {
           >
             Belajar
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={toggleBackgroundColor}
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto text-center">
               {navLinks.map((link) => {

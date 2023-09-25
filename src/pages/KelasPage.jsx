@@ -3,7 +3,7 @@ import { semuaKelas } from '../data/index';
 
 const KelasPage = () => {
   return (
-    <div className="kelas-page">
+    <div className="kelas-page min-vh-100">
       <div className="kelas">
         <Container>
           <Row>

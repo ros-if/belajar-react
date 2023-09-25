@@ -3,7 +3,7 @@ import { testimonial } from '../data';
 
 const TestimonialPage = () => {
   return (
-    <div className="testimonial-page">
+    <div className="testimonial-page min-vh-100">
       <div className="testimonial">
         <Container>
           <Row>
